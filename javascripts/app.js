@@ -89,9 +89,6 @@ function roverInstructions(rover, instructions) {
       case "f":
         moveForward(rover);
         break;
-      case "b":
-        moveBackward(rover);
-        break;
       case "l":
         turnLeft(rover);
         break;
